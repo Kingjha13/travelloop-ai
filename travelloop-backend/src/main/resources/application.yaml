@@ -1,6 +1,20 @@
 ktor:
   deployment:
     port: 8080
+
   application:
     modules:
-      - com.example.RoutingKt.configureRouting
+      - com.example.ApplicationKt.module
+
+database:
+  driver: "org.postgresql.Driver"
+  url: "jdbc:postgresql://localhost:5432/notesdb"
+  user: "postgres"
+  password: "password"
+  maxPoolSize: 10
+
+jwt:
+  secret: "travelloop_secret_key"
+  issuer: "travelloop"
+  audience: "travelloop_users"
+  realm: "TravelLoop API"
