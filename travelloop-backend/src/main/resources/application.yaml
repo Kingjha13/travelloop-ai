@@ -10,7 +10,7 @@ database:
   driver: "org.postgresql.Driver"
   url: "jdbc:postgresql://localhost:5432/notesdb"
   user: "postgres"
-  password: "password"
+  password: "golu@2003"
   maxPoolSize: 10
 
 jwt:
