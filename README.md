@@ -1,51 +1,51 @@
-# TravelLoop ¿?¿
+# TravelLoop ğŸŒâœˆï¸
 
-AI-powered travel planning application built with Jetpack Compose, Ktor, and PostgreSQL.
+AI-powered travel planning application built with **Jetpack Compose**, **Ktor**, and **PostgreSQL**.
 
 TravelLoop helps users create trips, build itineraries, manage budgets, organize packing lists, save notes, and explore public travel plans in one modern mobile application.
 
 ---
 
-# ¿? Features
+## ğŸš€ Features
 
-## ¿? Authentication
+### ğŸ” Authentication
 - User Registration
 - Secure Login
 - JWT Authentication
 
-## ¿? Trip Management
+### ğŸ§³ Trip Management
 - Create Trips
 - Public / Private Trips
 - Trip Dashboard
 - Trip Details
 
-## ¿? Itinerary Builder
+### ğŸ“ Itinerary Builder
 - Add Stops
 - Add Activities
 - Organize Travel Schedule
 
-## ¿? Budget Tracking
+### ğŸ’° Budget Tracking
 - Add Expenses
 - Budget Summary
 - Expense Categories
 
-## ¿? Packing Lists
+### ğŸ’ Packing Lists
 - Add Packing Items
 - Mark Packed / Unpacked
 
-## ¿? Travel Notes
+### ğŸ“ Travel Notes
 - Save Important Notes
 - Trip-specific Notes
 
-## ¿? Public Exploration
+### ğŸŒ Public Exploration
 - Explore Public Trips
 - View Shared Travel Plans
 
 ---
 
-# ¿? Tech Stack
+## ğŸ›  Tech Stack
 
-## Frontend
+### Frontend
 - Kotlin
 - Jetpack Compose
 - Material 3
@@ -54,7 +54,7 @@ TravelLoop helps users create trips, build itineraries, manage budgets, organize
 - ViewModel
 - StateFlow
 
-## Backend
+### Backend
 - Kotlin
 - Ktor Server
 - PostgreSQL
@@ -64,7 +64,7 @@ TravelLoop helps users create trips, build itineraries, manage budgets, organize
 
 ---
 
-# ¿? Android Screens
+## ğŸ“± Android Screens
 
 - Splash Screen
 - Login Screen
@@ -82,62 +82,60 @@ TravelLoop helps users create trips, build itineraries, manage budgets, organize
 
 ---
 
-# ¿? Project Structure
+## ğŸ—‚ Project Structure
 
 ```text
 TravelLoop/
-¿
-¿¿¿ app/                     # Android frontend
-¿
-¿¿¿ travelloop-backend/      # Ktor backend
-¿
-¿¿¿ build.gradle.kts
-¿¿¿ settings.gradle.kts
-¿¿¿ README.md
+â”‚
+â”œâ”€â”€ app/                     # Android frontend
+â”œâ”€â”€ travelloop-backend/      # Ktor backend
+â”œâ”€â”€ build.gradle.kts
+â”œâ”€â”€ settings.gradle.kts
+â””â”€â”€ README.md
 ```
 
 ---
 
-# ¿? API Modules
+## ğŸ”¥ API Modules
 
-## Authentication
+### Authentication
 ```text
 /api/auth
 ```
 
-## Trips
+### Trips
 ```text
 /api/trips
 ```
 
-## Stops
+### Stops
 ```text
 /api/trips/{tripId}/stops
 ```
 
-## Activities
+### Activities
 ```text
 /api/stops/{stopId}/activities
 ```
 
-## Budget
+### Budget
 ```text
 /api/trips/{tripId}/budget
 ```
 
-## Packing
+### Packing
 ```text
 /api/trips/{tripId}/packing
 ```
 
-## Notes
+### Notes
 ```text
 /api/trips/{tripId}/notes
 ```
 
 ---
 
-# ¿? Key Highlights
+## ğŸ§  Key Highlights
 
 - Modern Material 3 UI
 - Clean Architecture
@@ -150,7 +148,7 @@ TravelLoop/
 
 ---
 
-# ¿? Future Enhancements
+## ğŸ“¸ Future Enhancements
 
 - Google Maps Integration
 - AI Trip Suggestions
@@ -162,12 +160,14 @@ TravelLoop/
 
 ---
 
-# ¿?¿?¿? Developer
+## ğŸ‘¨â€ğŸ’» Developer
 
-Avanish Jha
+**Avanish Jha**
+
+GitHub: [Kingjha13](https://github.com/Kingjha13)
 
 ---
 
-# ¿? TravelLoop
+# â­ TravelLoop
 
-Plan smarter. Travel better.
+**Plan smarter. Travel better.**
